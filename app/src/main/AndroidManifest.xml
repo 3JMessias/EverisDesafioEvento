@@ -9,13 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DadosDoParticipanteActivity"></activity>
-        <activity android:name=".EditarEventoActivity" />
-        <activity android:name=".ListarParticipantesActivity" />
-        <activity android:name=".InscricaoEventoActivity" />
-        <activity android:name=".ListarEventosActivity" />
-        <activity android:name=".CadastroEventoActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".Activity.DadosDoParticipanteActivity"></activity>
+        <activity android:name=".Activity.EditarEventoActivity" />
+        <activity android:name=".Activity.ListarParticipantesActivity" />
+        <activity android:name=".Activity.InscricaoEventoActivity" />
+        <activity android:name=".Activity.ListarEventosActivity" />
+        <activity android:name=".Activity.CadastroEventoActivity" />
+        <activity android:name=".Activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

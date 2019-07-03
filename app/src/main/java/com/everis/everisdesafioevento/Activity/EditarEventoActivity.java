@@ -1,4 +1,4 @@
-package com.everis.everisdesafioevento;
+package com.everis.everisdesafioevento.Activity;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
@@ -18,14 +18,9 @@ import android.widget.Toast;
 import com.everis.everisdesafioevento.DAO.EventoDAO;
 import com.everis.everisdesafioevento.DAO.RegistroDAO;
 import com.everis.everisdesafioevento.Domain.Evento;
-import com.everis.everisdesafioevento.Mask.Mask;
-
-import org.joda.time.LocalDate;
-import org.joda.time.LocalTime;
-import org.w3c.dom.Text;
+import com.everis.everisdesafioevento.R;
 
 import java.util.Calendar;
-import java.util.concurrent.TimeoutException;
 
 public class EditarEventoActivity extends AppCompatActivity {
 
