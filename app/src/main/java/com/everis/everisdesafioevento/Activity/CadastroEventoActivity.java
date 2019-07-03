@@ -1,6 +1,5 @@
-package com.everis.everisdesafioevento;
+package com.everis.everisdesafioevento.Activity;
 
-import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
@@ -20,7 +19,7 @@ import android.widget.Toast;
 
 import com.everis.everisdesafioevento.DAO.EventoDAO;
 import com.everis.everisdesafioevento.Domain.Evento;
-import com.everis.everisdesafioevento.Mask.Mask;
+import com.everis.everisdesafioevento.R;
 
 import java.util.Calendar;
 

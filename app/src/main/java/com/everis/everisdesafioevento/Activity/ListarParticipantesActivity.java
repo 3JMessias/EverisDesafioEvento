@@ -1,4 +1,4 @@
-package com.everis.everisdesafioevento;
+package com.everis.everisdesafioevento.Activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -19,6 +19,7 @@ import com.everis.everisdesafioevento.DAO.ParticipanteDAO;
 import com.everis.everisdesafioevento.DAO.RegistroDAO;
 import com.everis.everisdesafioevento.Domain.Evento;
 import com.everis.everisdesafioevento.Domain.Participante;
+import com.everis.everisdesafioevento.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

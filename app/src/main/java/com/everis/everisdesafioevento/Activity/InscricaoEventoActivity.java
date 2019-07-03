@@ -1,4 +1,4 @@
-package com.everis.everisdesafioevento;
+package com.everis.everisdesafioevento.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +18,7 @@ import com.everis.everisdesafioevento.Domain.Registro;
 import com.everis.everisdesafioevento.DAO.ParticipanteDAO;
 import com.everis.everisdesafioevento.DAO.RegistroDAO;
 import com.everis.everisdesafioevento.Mask.Mask;
+import com.everis.everisdesafioevento.R;
 
 public class InscricaoEventoActivity extends AppCompatActivity {
     TextView txtNomeEvento;
